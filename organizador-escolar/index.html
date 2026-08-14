@@ -1,0 +1,88 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Organizador Escolar</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+    <!-- Encabezado con el nombre del proyecto -->
+    <header>
+        <div class="container">
+            <h1>Organizador Escolar</h1>
+            <p>Tu herramienta simple para no olvidar ninguna tarea.</p>
+        </div>
+    </header>
+
+    <main class="container">
+        <!-- Sección de Introducción -->
+        <section class="intro">
+            <h2>Gestión de Tareas</h2>
+            <p>Lleva un control visual de tus deberes. Las tareas en verde están entregadas, y las rojas están pendientes.</p>
+        </section>
+
+        <!-- Sección de Tareas -->
+        <section class="tasks-section">
+            <h3>Mis Tareas</h3>
+            <div class="tasks-grid">
+                <!-- Tarea 1: Pendiente -->
+                <article class="task-card status-pending">
+                    <div class="task-header">
+                        <span class="subject">Matemáticas</span>
+                        <span class="badge">Pendiente</span>
+                    </div>
+                    <h4>Ejercicios de Fracciones</h4>
+                    <p class="due-date">Entrega: 15 de Agosto</p>
+                </article>
+
+                <!-- Tarea 2: Entregada -->
+                <article class="task-card status-completed">
+                    <div class="task-header">
+                        <span class="subject">Lengua</span>
+                        <span class="badge">Entregada</span>
+                    </div>
+                    <h4>Análisis de Texto</h4>
+                    <p class="due-date">Entrega: 10 de Agosto</p>
+                </article>
+
+                <!-- Tarea 3: Pendiente -->
+                <article class="task-card status-pending">
+                    <div class="task-header">
+                        <span class="subject">Historia</span>
+                        <span class="badge">Pendiente</span>
+                    </div>
+                    <h4>Resumen Revolución de Mayo</h4>
+                    <p class="due-date">Entrega: 18 de Agosto</p>
+                </article>
+
+                <!-- Tarea 4: Entregada -->
+                <article class="task-card status-completed">
+                    <div class="task-header">
+                        <span class="subject">Ciencias Naturales</span>
+                        <span class="badge">Entregada</span>
+                    </div>
+                    <h4>Maqueta del Sistema Solar</h4>
+                    <p class="due-date">Entrega: 05 de Agosto</p>
+                </article>
+            </div>
+        </section>
+
+        <!-- Sección de Próximas Entregas -->
+        <section class="upcoming-deadlines">
+            <h3>Próximas Entregas</h3>
+            <ul class="deadline-list">
+                <li><strong>15 Ago:</strong> Ejercicios de Fracciones (Matemáticas)</li>
+                <li><strong>18 Ago:</strong> Resumen Revolución de Mayo (Historia)</li>
+            </ul>
+        </section>
+    </main>
+
+    <!-- Pie de página -->
+    <footer>
+        <p>&copy; 2026 Organizador Escolar - Proyecto para la Escuela</p>
+    </footer>
+
+</body>
+</html>
